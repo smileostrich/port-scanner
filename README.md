@@ -1,2 +1,2 @@
-# portscanner
+# port-scanner
 port, dns scanner
