@@ -1,0 +1,20 @@
+[package]
+name = "port-scanner"
+version = "0.1.0"
+authors = ["smileostrich"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+clap = { version = "4.3.5", features = ["derive"] }
+async-channel = "1.8.0"
+futures = "0.3.28"
+trust-dns-client = "0.22.0"
+tokio = { version = "1.28.2", features = ["full"] }
+indicatif = "0.17"
+serde = { version = "1.0.164", features = ["derive"] }
+serde_json = "1.0.79"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"
