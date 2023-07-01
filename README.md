@@ -1,6 +1,11 @@
 # port-scanner
 port, dns scanner
 
+### usage
+```bash
+port-scanner --target google.com --concurrency 16 --subdomains-file sub-domains.txt
+```
+
 ### status
 - [x] dns scanner
 - [ ] port scanner
